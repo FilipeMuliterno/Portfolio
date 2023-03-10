@@ -1,0 +1,309 @@
+@media(max-width:1600px){
+    .crl-a{
+        margin-top: 65%;
+    }
+}
+
+@media(max-width:1300px){
+    .crl-a{
+        margin-top: 80%;
+    }
+
+    .contato-all{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .contato-dados-p{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 90%;
+    }
+
+    .contato-dados-e{
+        width: 90%;
+        margin-bottom: 2%;
+    }
+
+    .submit{
+        margin-top: 2%;
+    }
+}
+
+@media(max-width:950px){
+    .introduction{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .left{
+        margin-bottom: 5%;
+    }
+
+    .crl-a{
+        margin-top: 175%;
+    }
+
+    .about-div{
+        margin-top: -15%;
+        flex-direction: column;
+    }
+
+    .foto2{
+        visibility: hidden;
+    }
+
+    .education{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cursos{
+        width: 100%;
+        border: none;
+    }
+
+    .formation{
+        margin-bottom: 5%;
+    }
+
+    .form1{
+        height: 300px;
+    }
+
+    .btn-menu{
+        width: 30%;
+    }
+
+    .contato-all{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .contato-dados-p{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 90%;
+    }
+
+    .contato-dados-e{
+        width: 90%;
+        margin-bottom: 2%;
+    }
+
+    .submit{
+        margin-top: 2%;
+    }
+
+    .top-all{
+        width: 100%;
+    }
+    
+    .redes-f{
+        visibility: hidden;
+    }
+
+    .mobile-menu div{
+        transition: 0.5s;
+    }
+
+    .mobile-menu{
+        transition: 0.5s;
+        display: block;
+    }
+
+    .iten{
+        display: none;
+    }
+
+
+    .iten2{
+        display: block;
+    }
+
+    .header{
+        margin-right: 5%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-bar{ 
+        pointer-events: none;
+        border-bottom-left-radius: 10px;
+        transition: 0.5s;
+        justify-content: space-evenly;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 35vw;
+        height: 1vh;
+        opacity: 0;
+        background-image: linear-gradient(120deg, #81acf1 0%, #c2e9fbe8 100%);
+        position: absolute;
+        transform: translatey(-10%);
+        box-shadow: rgba(0, 0, 0, 0.507) 0px 2px 4px 0px, rgba(0, 0, 0, 0.664) 0px 2px 16px 0px;
+    }
+
+    .open{
+        pointer-events:all;
+        height: 42vh;
+        transform: translatey(0);
+        opacity: 100%;
+    }
+
+    .l2{
+        opacity: 0;
+    }
+
+    .l1{
+        background-color: rgb(54, 54, 54);
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+
+    .l3{
+        background-color: rgb(54, 54, 54);
+        transform: rotate(45deg) translate(-5px, -7px);
+    }
+
+    .foto{
+        width: 90%;
+    }
+
+    .about-div2{
+        width: 90%;
+    }
+
+    .dark-mode .cursos{
+        border: none;
+    }
+
+    .education{
+        width: 70%;
+    }
+
+    .formation{
+        width: 100%;
+    }
+
+    .c-projeto{
+        margin-top: -45%;
+    }
+
+
+}
+
+@media(max-width:850px){
+    .crl-a{
+        margin-top: 210%;
+    }
+}
+
+@media(max-width:700px){
+    .crl-a{
+        margin-top: 250%;
+    }
+}
+
+@media(max-width:580px){
+    .crl-a{
+        margin-top: 300%;
+    }
+
+    .projects-div{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: none;
+    }
+    
+    .dark-mode .projects-div{
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: none;
+    }
+
+    .contato-all{
+        width:99% ;
+    }
+}
+
+@media(max-width:490px){
+    .crl-a{
+        margin-top: 350%;
+    }
+
+    .education{
+        width: 98%;
+    }
+
+    .formation{
+        width: 100%;
+    }
+
+    .about-div2{
+        margin-top: -35%;
+    }
+}
+
+@media(max-width:420px){
+    .crl-a{
+        margin-top: 400%;
+    }
+
+    .apresentation{
+        font-size: 40px;
+    }
+
+    .writecss{
+        font-size: 20px;
+    }
+
+    .about-title{
+        text-align: center;
+    }
+
+    .about-text{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 370px){
+    .crl-a{
+        margin-top: 500%;
+    }
+
+    .form1{
+        height: 330px;
+    }
+
+    .c-projeto{
+        margin-top: -85%;
+    }
+
+    .proj{
+        min-width: 98%;
+    }
+
+    .btn-menu{
+        font-size: 15px;
+    }
+    .right{
+        margin-top: 5%;
+        width: 99%;
+    }
+
+    .apresentation{
+        font-size: 35px;
+    }
+
+    .writecss{
+        font-size: 18px;
+    }
+
+    .label{
+        margin-top: 10%;
+    }
+
+
+
+}
