@@ -33,72 +33,72 @@ export default function Portifolio() {
       }
 
       function subMenu1() {
-        var element = document.querySelector("#b");
-        element.classList.add("a");
-        var element = document.querySelector("#a");
-        element.classList.add("i");
-        var element = document.querySelector("#c");
-        element.classList.add("i");
-        var element = document.querySelector("#a");
-        element.classList.remove("a");
-        var element = document.querySelector("#c");
-        element.classList.remove("a");
-        var element = document.querySelector("#bt2");
-        element.classList.add("border2");
-        var element = document.querySelector("#bt1");
-        element.classList.add("border1");
-        var element = document.querySelector("#bt3");
-        element.classList.add("border1");
-        var element = document.querySelector("#bt1");
-        element.classList.remove("border2");
-        var element = document.querySelector("#bt3");
-        element.classList.remove("border2");
+        var element2 = document.querySelector("#b");
+        element2.classList.add("a");
+        var element3 = document.querySelector("#a");
+        element3.classList.add("i");
+        var element4 = document.querySelector("#c");
+        element4.classList.add("i");
+        var element5 = document.querySelector("#a");
+        element5.classList.remove("a");
+        var element6 = document.querySelector("#c");
+        element6.classList.remove("a");
+        var element7 = document.querySelector("#bt2");
+        element7.classList.add("border2");
+        var element8 = document.querySelector("#bt1");
+        element8.classList.add("border1");
+        var element9 = document.querySelector("#bt3");
+        element9.classList.add("border1");
+        var elementq = document.querySelector("#bt1");
+        elementq.classList.remove("border2");
+        var elementw = document.querySelector("#bt3");
+        elementw.classList.remove("border2");
       }
 
       function subMenu2() {
-        var element = document.querySelector("#c");
-        element.classList.add("a");
-        var element = document.querySelector("#a");
-        element.classList.add("i");
-        var element = document.querySelector("#b");
-        element.classList.add("i");
-        var element = document.querySelector("#a");
-        element.classList.remove("a");
-        var element = document.querySelector("#b");
-        element.classList.remove("a");
-        var element = document.querySelector("#bt3");
-        element.classList.add("border2");
-        var element = document.querySelector("#bt1");
-        element.classList.add("border1");
-        var element = document.querySelector("#bt2");
-        element.classList.add("border1");
-        var element = document.querySelector("#bt1");
-        element.classList.remove("border2");
-        var element = document.querySelector("#bt2");
-        element.classList.remove("border2");
+        var elemente = document.querySelector("#c");
+        elemente.classList.add("a");
+        var elementr = document.querySelector("#a");
+        elementr.classList.add("i");
+        var elementt = document.querySelector("#b");
+        elementt.classList.add("i");
+        var elementy = document.querySelector("#a");
+        elementy.classList.remove("a");
+        var elementu = document.querySelector("#b");
+        elementu.classList.remove("a");
+        var elementi = document.querySelector("#bt3");
+        elementi.classList.add("border2");
+        var elemento = document.querySelector("#bt1");
+        elemento.classList.add("border1");
+        var elementp = document.querySelector("#bt2");
+        elementp.classList.add("border1");
+        var elementa = document.querySelector("#bt1");
+        elementa.classList.remove("border2");
+        var elements = document.querySelector("#bt2");
+        elements.classList.remove("border2");
       }
 
       function subMenu3() {
-        var element = document.querySelector("#a");
-        element.classList.add("a");
-        var element = document.querySelector("#b");
-        element.classList.add("i");
-        var element = document.querySelector("#c");
-        element.classList.add("i");
-        var element = document.querySelector("#b");
-        element.classList.remove("a");
-        var element = document.querySelector("#c");
-        element.classList.remove("a");
-        var element = document.querySelector("#bt1");
-        element.classList.add("border2");
-        var element = document.querySelector("#bt2");
-        element.classList.add("border1");
-        var element = document.querySelector("#bt3");
-        element.classList.add("border1");
-        var element = document.querySelector("#bt2");
-        element.classList.remove("border2");
-        var element = document.querySelector("#bt3");
-        element.classList.remove("border2");
+        var element1 = document.querySelector("#a");
+        element1.classList.add("a");
+        var elementz = document.querySelector("#b");
+        elementz.classList.add("i");
+        var elementx = document.querySelector("#c");
+        elementx.classList.add("i");
+        var elementc = document.querySelector("#b");
+        elementc.classList.remove("a");
+        var elementv = document.querySelector("#c");
+        elementv.classList.remove("a");
+        var elementb = document.querySelector("#bt1");
+        elementb.classList.add("border2");
+        var elementn = document.querySelector("#bt2");
+        elementn.classList.add("border1");
+        var elementm = document.querySelector("#bt3");
+        elementm.classList.add("border1");
+        var elementl = document.querySelector("#bt2");
+        elementl.classList.remove("border2");
+        var elementj = document.querySelector("#bt3");
+        elementj.classList.remove("border2");
       }
       
       const [name, setName] = useState('')
@@ -133,25 +133,25 @@ export default function Portifolio() {
       }
 
       function navBar() {
-        var element = document.querySelector("#navbar");
-        element.classList.toggle("open");
-        var element = document.querySelector("#line1");
-        element.classList.toggle("l1");
-        var element = document.querySelector("#line2");
-        element.classList.toggle("l2");
-        var element = document.querySelector("#line3");
-        element.classList.toggle("l3");
+        var element11 = document.querySelector("#navbar");
+        element11.classList.toggle("open");
+        var element22 = document.querySelector("#line1");
+        element22.classList.toggle("l1");
+        var element33 = document.querySelector("#line2");
+        element33.classList.toggle("l2");
+        var element44 = document.querySelector("#line3");
+        element44.classList.toggle("l3");
       }
 
       function navBarOff() {
-        var element = document.querySelector("#navbar");
-        element.classList.remove("open");
-        var element = document.querySelector("#line1");
-        element.classList.remove("l1");
-        var element = document.querySelector("#line2");
-        element.classList.remove("l2");
-        var element = document.querySelector("#line3");
-        element.classList.remove("l3");
+        var element55 = document.querySelector("#navbar");
+        element55.classList.remove("open");
+        var element66 = document.querySelector("#line1");
+        element66.classList.remove("l1");
+        var element77 = document.querySelector("#line2");
+        element77.classList.remove("l2");
+        var element88 = document.querySelector("#line3");
+        element88.classList.remove("l3");
       }
 
     return (

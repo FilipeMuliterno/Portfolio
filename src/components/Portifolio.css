@@ -336,6 +336,8 @@ body{
     position: absolute;
 }
 
+
+
 .sub-menus{
     display: flex;
     justify-content: center;
@@ -406,7 +408,7 @@ body{
 }
 
 .form1{
-    cursor: pointer;
+    cursor:default;
     box-shadow: rgba(0, 0, 0, 0.144) 0px 2px 4px 0px, rgba(0, 0, 0, 0.212) 0px 2px 16px 0px;
     height: 200px;
     padding-bottom: 10px;
@@ -494,7 +496,7 @@ body{
 
 .icons-geral-all{
     box-shadow: rgba(0, 0, 0, 0.144) 0px 2px 4px 0px, rgba(0, 0, 0, 0.212) 0px 2px 16px 0px;
-    cursor: pointer;
+    cursor: default;
     border-radius: 10px;
     padding: 2%;
     width: 100%;
