@@ -625,6 +625,10 @@ body{
     transform: scale(1.1);
 }
 
+.proj-pok:hover .proj-pok-foto{
+    transform: scale(1.1);
+}
+
 .proj-tit-all{
     gap: 10%;
     margin-top: 6%;

@@ -22,7 +22,9 @@ import batman from "./icons/batman.jpg"
 import port from "./icons/port.jpg"
 import emailjs from '@emailjs/browser'
 import swal from 'sweetalert';
-
+import pokedex from "./icons/pokedex.jpg"
+import pedrapapel from "./icons/pedrapapeltesoura.jpg"
+import despesas from "./icons/despesas.jpg"
 
 
 export default function Portifolio() {
@@ -414,6 +416,51 @@ export default function Portifolio() {
                                     </div>
                                 </div>
                                 <p className="proj-sub">Site baseado no filme Batman, com intuito de demonstrar meu conhecimento em Front-End. Feito somento em HTML e CSS. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="proj proj-pok">
+                        <div className="proj-all">
+                            <div className="proj-foto"><img className="proj-foto-real proj-pok-foto" src={pokedex} alt="calculadora" /></div>
+                            <div className="proj-leg">
+                                <div className="proj-tit-all">
+                                    <p className="proj-tit">Pokédex</p>
+                                    <div className="icon-proj">
+                                        <a target='_blank' rel="noopener noreferrer" href="https://github.com/FilipeMuliterno/Pokedex"><i class="fa fa-github icon-projs" aria-hidden="true"></i> </a>
+                                        <a target='_blank' rel="noopener noreferrer" href="https://pokedex-bay-delta.vercel.app"><i class="fa fa-globe icon-projs" aria-hidden="true"></i> </a>
+                                    </div>
+                                </div>
+                                <p className="proj-sub">Projeto de Pokédex, você indica o número de pokémons a serem exibidos em tela. O projeto foi feito com requisições em uma API pública.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="proj proj-port">
+                        <div className="proj-all">
+                            <div className="proj-foto"><img className="proj-foto-real proj-port-foto" src={despesas} alt="calculadora" /></div>
+                            <div className="proj-leg">
+                                <div className="proj-tit-all">
+                                    <p className="proj-tit">Lista de despesas</p>
+                                    <div className="icon-proj">
+                                        <a target='_blank' rel="noopener noreferrer" href="https://github.com/FilipeMuliterno/ListaDespesas"><i class="fa fa-github icon-projs" aria-hidden="true"></i> </a>
+                                        <a target='_blank' rel="noopener noreferrer" href="https://lista-despesas.vercel.app"><i class="fa fa-globe icon-projs" aria-hidden="true"></i> </a>
+                                    </div>
+                                </div>
+                                <p className="proj-sub">Ferramenta para listar e somar suas despesas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="proj proj-port">
+                        <div className="proj-all">
+                            <div className="proj-foto"><img className="proj-foto-real proj-port-foto" src={pedrapapel} alt="calculadora" /></div>
+                            <div className="proj-leg">
+                                <div className="proj-tit-all">
+                                    <p className="proj-tit">Pedra, Papel ou Tesoura</p>
+                                    <div className="icon-proj">
+                                        <a target='_blank' rel="noopener noreferrer" href="https://github.com/FilipeMuliterno/PedraPapelTesoura"><i class="fa fa-github icon-projs" aria-hidden="true"></i> </a>
+                                        <a target='_blank' rel="noopener noreferrer" href="https://pedra-papel-tesoura-weld.vercel.app"><i class="fa fa-globe icon-projs" aria-hidden="true"></i> </a>
+                                    </div>
+                                </div>
+                                <p className="proj-sub">Jogo Pedra, Papel ou Tesoura feito em JavaScript com sistema de aleatoriedade da escolha do oponente.</p>
                             </div>
                         </div>
                     </div>
