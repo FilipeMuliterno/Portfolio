@@ -25,6 +25,7 @@ import swal from 'sweetalert';
 import pokedex from "./icons/pokedex.jpg"
 import pedrapapel from "./icons/pedrapapeltesoura.jpg"
 import despesas from "./icons/despesas.jpg"
+import pr from "./icons/pr.jpg"
 
 
 export default function Portifolio() {
@@ -461,6 +462,21 @@ export default function Portifolio() {
                                     </div>
                                 </div>
                                 <p className="proj-sub">Jogo Pedra, Papel ou Tesoura feito em JavaScript com sistema de aleatoriedade da escolha do oponente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="proj proj-port">
+                        <div className="proj-all">
+                            <div className="proj-foto"><img className="proj-foto-real proj-port-foto" src={pr} alt="calculadora" /></div>
+                            <div className="proj-leg">
+                                <div className="proj-tit-all">
+                                    <p className="proj-tit">Perguntas e Respostas</p>
+                                    <div className="icon-proj">
+                                        <a target='_blank' rel="noopener noreferrer" href="https://github.com/FilipeMuliterno/PerguntasRespostas"><i class="fa fa-github icon-projs" aria-hidden="true"></i> </a>
+                                        <a target='_blank' rel="noopener noreferrer" href="https://perguntas-respostas-nu.vercel.app"><i class="fa fa-globe icon-projs" aria-hidden="true"></i> </a>
+                                    </div>
+                                </div>
+                                <p className="proj-sub">Um sistema de perguntas e respostas sobre HTML e CSS com contador de acertos e erros, feito para treinar JavaScript.</p>
                             </div>
                         </div>
                     </div>
