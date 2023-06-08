@@ -26,6 +26,7 @@ import pokedex from "./icons/pokedex.jpg"
 import pedrapapel from "./icons/pedrapapeltesoura.jpg"
 import despesas from "./icons/despesas.jpg"
 import pr from "./icons/pr.jpg"
+import postg from "./icons/postgram.jpg"
 
 
 export default function Portifolio() {
@@ -221,7 +222,7 @@ export default function Portifolio() {
                     <img src={foto2} alt="Foto" className="foto2" />
                     <div className="about-div2">
                         <p className="about-title">Quem sou eu?</p>
-                        <p className="about-text"> Olá, meu nome é Filipe Muliterno, atualmente cursando Análise e Desenvolvimento de Sistemas com foco em Desenvolvimento Web. Gosto de desafios, sou esforçado, me adapto bem a novas experiências e ambientes, trabalho muito bem em equipe. Me considero ágil e consistente em aprender novas linguagens e tecnologias, me adaptando bem a qualquer mudança. Atuando também como técnico em informática, com foco em montagem e manutenção de computadores.</p>
+                        <p className="about-text"> Olá, meu nome é Filipe Muliterno, atualmente cursando Análise e Desenvolvimento de Sistemas com foco em Desenvolvimento Web. Gosto de desafios, sou esforçado, me adapto bem a novas experiências e ambientes, trabalho muito bem em equipe. Me considero ágil e consistente em aprender novas linguagens e tecnologias, me adaptando bem a qualquer mudança. Atuando também como técnico de suporte em TI, com foco em montagem e manutenção de computadores.</p>
                     </div>
                 </div>
                 <div className="l2"><div className="line line2"  id="curriculo"></div></div>
@@ -253,7 +254,7 @@ export default function Portifolio() {
                                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                         <div className="div-form1">
                                             <p className="title-form1">Banco de Dados</p>
-                                            <p className="p-form1">Dunki Code</p>
+                                            <p className="p-form1">Danki Code</p>
                                             <p className="date-form1">Concluído</p>
                                             <p className="p2-form1">O curso tem como objetivo ensinar tudo sobre banco de dados relacional MySql e banco de dados não relacional MongoDB.</p>
                                        </div>
@@ -262,7 +263,7 @@ export default function Portifolio() {
                                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                         <div className="div-form1">
                                             <p className="title-form1">Curso Front-End Completo</p>
-                                            <p className="p-form1">Dunki Code</p>
+                                            <p className="p-form1">Danki Code</p>
                                             <p className="date-form1">Concluído</p>
                                             <p className="p2-form1">O curso tem como objetivo ensinar tudo sobre desenvolvimento Front-End, focando em HTML, CSS, JavaScript, React. Ensinando boas práticas de criação de páginas, Grid, Flexbox e muito mais.</p>
                                        </div>
@@ -343,10 +344,19 @@ export default function Portifolio() {
                                     <div className="form1">
                                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                         <div className="div-form1">
-                                            <p className="title-form1">Técnico em Informática</p>
+                                            <p className="title-form1">Técnico de Suporte em TI</p>
                                             <p className="p-form1">Sidy Informática</p>
                                             <p className="date-form1">Mar de 2021 - o momento</p>
-                                            <p className="p2-form1">Atuando como técnico em informática, especializado em instalação, montagem, manutenção e conserto de desktops e notebooks. Experiência em impressoras, software e internet.</p>
+                                            <p className="p2-form1">Atuando como técnico de suporte em ti, especializado em instalação, montagem, manutenção e conserto de desktops e notebooks. Experiência em impressoras, software e internet.</p>
+                                       </div>
+                                    </div>
+                                    <div className="form1">
+                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        <div className="div-form1">
+                                            <p className="title-form1">Desenvolvedor Web</p>
+                                            <p className="p-form1">Freelance</p>
+                                            <p className="date-form1">Abr de 2023 - Mai de 2023</p>
+                                            <p className="p2-form1">Desenvolvimento de um site para uma garagem automotiva (SHR Veiculos), o site conta com um CRUD para envio de anúncios, e sistema de login nesse CRUD. Projeto feito somente por mim em React e Firebase.</p>
                                        </div>
                                     </div>
                                 </div>  
@@ -387,6 +397,21 @@ export default function Portifolio() {
                                     </div>
                                 </div>
                                 <p className="proj-sub">Página login demonstrativa com intuito de colocar em prática meus conhecimentos em Front-End. Feita somente em HTML e CSS.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="proj proj-calc">
+                        <div className="proj-all">
+                            <div className="proj-foto"><img className="proj-foto-real proj-calc-foto" src={postg} alt="calculadora" /></div>
+                            <div className="proj-leg">
+                                <div className="proj-tit-all">
+                                    <p className="proj-tit">Postgram</p>
+                                    <div className="icon-proj">
+                                        <a target='_blank' rel="noopener noreferrer" href="https://github.com/FilipeMuliterno/Postgram"><i class="fa fa-github icon-projs" aria-hidden="true"></i> </a>
+                                        <a target='_blank' rel="noopener noreferrer" href="https://postgram-smoky.vercel.app"><i class="fa fa-globe icon-projs" aria-hidden="true"></i> </a>
+                                    </div>
+                                </div>
+                                <p className="proj-sub">Projeto de rede social baseada no Instagram, feita em React e Firebase. Conta com um sistema de postagem e login.</p>
                             </div>
                         </div>
                     </div>
