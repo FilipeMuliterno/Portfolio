@@ -34,7 +34,23 @@ export default function Portifolio() {
     function myFunction() {
         var element = document.body;
         element.classList.toggle("dark-mode");
+      
+        // Verifica se o Dark Mode está ativado ou desativado
+        var isDarkModeEnabled = element.classList.contains("dark-mode");
+      
+        // Armazena o estado do Dark Mode no localStorage
+        localStorage.setItem("darkModeEnabled", isDarkModeEnabled);
       }
+
+      window.onload = function() {
+        var isDarkModeEnabled = localStorage.getItem("darkModeEnabled");
+      
+        if (isDarkModeEnabled === "true") {
+          var element = document.body;
+          element.classList.add("dark-mode");
+        }
+      };
+ 
 
       function subMenu1() {
         var element2 = document.querySelector("#b");
